@@ -116,27 +116,29 @@ h2{
     align-items: center;
     list-style-type: none;
     display: flex;
-    width: 167vw;
+    width: 400vw;
     margin-top: 3em;
     padding-left: 0;
-    position: relative;
-    overflow: hidden;
-
-    /* overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    overflow: moz-scrollbars-none;
-    -webkit-transition: left 2s;
-    -o-transition: left 2s;
-    transition: left 2s;
-    position: relative; */
+    padding-bottom: 10em;
 
 }
-/* .slideritem {
-    position: absolute;
-    animation: sliding 4s infinite;
 
-} */
 
+@keyframes slider {
+    from {
+        transform: translateX(-0%);
+    }
+   
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.slider {
+    animation: 60s infinite slider;
+    animation-delay: 0s;
+}
     
 
 .index p { 
@@ -144,13 +146,13 @@ h2{
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    background-color: rgb(249, 234, 195);
-    padding: 1em;
-    margin-inline: 200px;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    margin-inline: 300px;
 }
 
 .index {
-    height: 70vh;
+    height: 100vh;
     
 }
 
