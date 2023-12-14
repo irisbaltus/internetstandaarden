@@ -112,14 +112,31 @@ h2{
 
 
 /* ul (images) index page */
-.index .indeximg {
+.index .slider {
     align-items: center;
     list-style-type: none;
     display: flex;
-    width: 100vw;
+    width: 167vw;
     margin-top: 3em;
     padding-left: 0;
+    position: relative;
+    overflow: hidden;
+
+    /* overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overflow: moz-scrollbars-none;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+    position: relative; */
+
 }
+/* .slideritem {
+    position: absolute;
+    animation: sliding 4s infinite;
+
+} */
+
     
 
 .index p { 
@@ -134,6 +151,7 @@ h2{
 
 .index {
     height: 70vh;
+    
 }
 
 
