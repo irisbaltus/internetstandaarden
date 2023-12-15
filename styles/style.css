@@ -43,8 +43,6 @@ nav ul{
     background-color: rgb(249, 234, 195);
     width: 100vw;
     position: relative;
-    
-    
 }
 
 
@@ -136,7 +134,7 @@ h2{
 
 
 .slider {
-    animation: 60s infinite slider;
+    animation: slider 60s linear infinite ;
     animation-delay: 0s;
 }
     
@@ -148,8 +146,10 @@ h2{
     text-align: center;
     padding-top: 1em;
     padding-bottom: 3em;
-    margin-inline: 300px;
-}
+    margin-inline: 18em;
+} 
+
+
 
 .index {
     height: 100vh;
