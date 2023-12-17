@@ -30,7 +30,6 @@ header {
     margin-top: -145px;
     z-index: 3;
     width: 100%;
-    
 }
 
 /* navigatie bar */
@@ -53,8 +52,7 @@ nav a {
 
 nav li:hover{
     scale: 1.2;
-    transition: all 500ms ease;
-    
+    transition: all 200ms ease;
 }
 
 
@@ -118,7 +116,6 @@ h2{
     margin-top: 3em;
     padding-left: 0;
     padding-bottom: 10em;
-
 }
 
 
@@ -147,13 +144,13 @@ h2{
     padding-top: 1em;
     padding-bottom: 3em;
     margin-inline: 18em;
+    font-weight: bold;
 } 
 
 
 
 .index {
-    height: 100vh;
-    
+    height: 100vh;  
 }
 
 
@@ -203,7 +200,11 @@ h2{
     background-color: rgb(249, 234, 195);
     padding: 2em;
     border: .7em solid rgb(239, 219, 188);
-    
+}
+
+.info h2{
+    text-align: left;
+    font-size: larger;
 }
 
 .popup main {
@@ -212,7 +213,6 @@ h2{
     margin-top: 5vw;
     align-items: start;
     justify-content: center;
-
 }
 
 .foam {
@@ -253,14 +253,11 @@ article:hover {
     transition: all 500ms ease;
     position: relative;
     z-index: 2;
-    
-    
 }
 
 .index img:hover{
     scale: 1.05;
     transition: all 500ms ease;
-
 }
 
 .popup article:hover{
@@ -270,23 +267,21 @@ article:hover {
 .info:hover{
     scale: 1.05;
     transition: all 500ms ease;
-
 }
 
 .popup .gallery:hover{
     scale: 1.05;
     transition: all 500ms ease;
-
 }
 
 .container article:hover{
     scale: 1;
-
 }
 .container:hover{
     scale: 1.02;
     transition: all 500ms ease;
 }
+
 
 
 
